@@ -1,0 +1,20 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "This is the real chat app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "Scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "shivanishinde",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

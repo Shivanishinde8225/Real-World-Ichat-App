@@ -1,0 +1,57 @@
+
+.container {
+    display: flex;
+    margin: 3px auto;
+    height: 501px;
+    width: 1193px;
+    border-radius: 2px solid rgb(218, 46, 46);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    background-color: aqua;
+}
+
+
+.card-body {
+    overflow-y: auto;
+    
+}
+.alert-primary{
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.message{
+    
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+}
+
+#messageInp {
+    width: 500px;
+    margin: 0px 50px;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.send {
+    display: flex;
+}
